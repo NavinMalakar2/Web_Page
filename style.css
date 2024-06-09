@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body {
+    background-image: url("./Assets/background-image.png");
+    background-position: bottom;
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    margin: auto;
+    overflow:hidden;
+    
+}
+main{
+    position: relative;
+}
+
+.container{
+    display: flex;
+    position: relative;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.log img{
+    margin-left: 7rem;
+}
+.function ul{
+    display: flex;
+
+   }
+.function ul>li {   
+ padding: 10px;
+ list-style: none;
+    }
+    .function a{
+        text-decoration: none;
+        color: black;
+    }
+    .searchbtn{
+        display: flex;
+        padding-right: 5rem;
+    }
+.searchbtn button{
+    background-color: #e30184;
+    border-radius: 0.5rem;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+    margin-top: 1rem ;
+    margin-left: 1rem;
+    border: none;
+   
+}
+.img_search_icon {
+    width: 3rem;
+    padding: 20px;
+
+}
+.write{
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+.write h1{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+.write p{
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+.write button{
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+#apply{
+    background-color: #e30184;
+    border: none;
+    color: white;
+    margin-right: 1em;
+
+}
+#cal{
+    border-color: #e30184;
+    color:#e30184;
+}
+.contect_img{
+    margin-top: 3em;
+}
+.contect_img ul{
+    display: flex;
+}
+.contect_img ul>li{
+    padding: 8px;
+ list-style: none;
+}
+.year{
+    font-size:1.5rem;
+    color: black solid;
+    
+}
+.family_img{
+    position: absolute;
+    margin-top: -34rem;
+    margin-left: 33.5rem;
+}
+.family_img img{
+    width: 52rem;
+    height: 37rem;
+}
+.CarLoan{
+    margin-top: -30rem;
+    margin-left: 39rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 8.9rem; 
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 1px 1px 20px grey; 
+}
+.HomeLoan{
+    margin-top: -24.5rem;
+    margin-left: 69rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 10rem; 
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 1px 1px 20px grey; 
+}
+/* @media screen and (max-width: 768px) {
+    main{
+        
+        /* flex-direction: column; */
+        /* font-size: 50%; */
+        /* flex-wrap: wrap;
+        flex-shrink:45 ;
+    }
+} */ 
+
